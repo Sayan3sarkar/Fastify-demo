@@ -1,8 +1,8 @@
-## CRUD Operations using Fastify and MySQL
+# CRUD Operations using Fastify and MySQL
 
 A simple **REST API** using [Fastify](https://fastify.io) and [mysql2](https://www.npmjs.com/package/mysql2)
 
-# Database
+## Database
 
 The credentials for the database need to stored in a **.env** file, created at the root level. The variables are as follows:
 <ul>
