@@ -6,7 +6,7 @@ const port = process.env.PORT | 3000;
 
 // Route Declaration
 const firstRoute = require('./routes/db-route');
-fastify.register(firstRoute);
+fastify.register(firstRoute, { prefix: '/fastify' });
 
 /**
  * non async await approach of creating a fastify server
